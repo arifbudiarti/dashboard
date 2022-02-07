@@ -1,0 +1,7 @@
+CRITICAL - 2022-02-03 12:10:10 --> Undefined property: App\Controllers\Apps::$modulesModel
+#0 D:\xampp\htdocs\ihc\dashboard\app\Controllers\Apps.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 19, Array)
+#1 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Apps->index()
+#2 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps))
+#3 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ihc\dashboard\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
