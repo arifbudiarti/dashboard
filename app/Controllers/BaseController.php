@@ -55,8 +55,8 @@ class BaseController extends Controller
 		// Preload any models, libraries, etc, here.
 		//--------------------------------------------------------------------
 		// E.g.: $this->session = \Config\Services::session();
-		$this->rubrikModel = new \App\Models\RubrikModel();
-		$this->rubrikDetModel = new \App\Models\RubrikDetailModel();
+		// $this->rubrikModel = new \App\Models\RubrikModel();
+		// $this->rubrikDetModel = new \App\Models\RubrikDetailModel();
 		$this->serversideModel = new \App\Models\Serverside_model();
 	}
 }

@@ -4,72 +4,158 @@
     <div class="col-lg-12">
         <div class="ibox ">
             <div class="ibox-title">
-                <h5>Transactions worldwide</h5>
+                <h5>KUNJUNGAN PASIEN</h5>
                 <div class="ibox-tools">
-                    <a class="collapse-link">
-                        <i class="fa fa-chevron-up"></i>
-                    </a>
-                    <a class="close-link">
-                        <i class="fa fa-times"></i>
-                    </a>
                 </div>
             </div>
             <div class="ibox-content">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <table class="table table-hover margin bottom">
+                    <div class="col-lg-3">
+                        <div class="ibox ">
+                            <div class="ibox-title">
+                                <span class="label label-success float-right">SWASTA</span>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">40 886,200</h1>
+                                <div class="stat-percent font-bold text-success">98% <i class="fa fa-bolt"></i></div>
+                                <small>Total income</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="ibox ">
+                            <div class="ibox-title">
+                                <span class="label label-info float-right">ASURANSI</span>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">275,800</h1>
+                                <div class="stat-percent font-bold text-info">20% <i class="fa fa-level-up"></i></div>
+                                <small>New orders</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="ibox ">
+                            <div class="ibox-title">
+                                <span class="label label-primary float-right">BPJS</span>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">106,120</h1>
+                                <div class="stat-percent font-bold text-navy">44% <i class="fa fa-level-up"></i></div>
+                                <small>New visits</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="ibox ">
+                            <div class="ibox-title">
+                                <span class="label label-danger float-right">TOTAL</span>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">80,600</h1>
+                                <div class="stat-percent font-bold text-danger">38% <i class="fa fa-level-down"></i></div>
+                                <small>In first month</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox ">
+            <div class="ibox-title">
+                <h5>PENDAPATAN</h5>
+                <div class="ibox-tools">
+                </div>
+            </div>
+            <div class="ibox-content">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="ibox ">
+                            <div class="ibox-title">
+                                <span class="label label-success float-right">SWASTA</span>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">40 886,200</h1>
+                                <div class="stat-percent font-bold text-success">98% <i class="fa fa-bolt"></i></div>
+                                <small>Total income</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="ibox ">
+                            <div class="ibox-title">
+                                <span class="label label-info float-right">ASURANSI</span>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">275,800</h1>
+                                <div class="stat-percent font-bold text-info">20% <i class="fa fa-level-up"></i></div>
+                                <small>New orders</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="ibox ">
+                            <div class="ibox-title">
+                                <span class="label label-primary float-right">BPJS</span>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">106,120</h1>
+                                <div class="stat-percent font-bold text-navy">44% <i class="fa fa-level-up"></i></div>
+                                <small>New visits</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="ibox ">
+                            <div class="ibox-title">
+                                <span class="label label-danger float-right">TOTAL</span>
+                            </div>
+                            <div class="ibox-content">
+                                <h1 class="no-margins">80,600</h1>
+                                <div class="stat-percent font-bold text-danger">38% <i class="fa fa-level-down"></i></div>
+                                <small>In first month</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox ">
+            <div class="ibox-title">
+                <h5>Detail Transaksi Unit</h5>
+                <div class="ibox-tools">
+                </div>
+            </div>
+            <div class="ibox-content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <table class="table table-striped table-bordered table-hover" id="tabel_serverside">
                             <thead>
                                 <tr>
-                                    <th style="width: 1%" class="text-center">No.</th>
-                                    <th>Transaction</th>
-                                    <th class="text-center">Date</th>
-                                    <th class="text-center">Amount</th>
+                                    <th width="3%" rowspan="2">No</th>
+                                    <th rowspan="2">Unit</th>
+                                    <th width="40%" colspan="4">Kunjungan</th>
+                                    <th width="40%" colspan="4">Pendapatan</th>
+                                </tr>
+                                <tr>
+                                    <th width="10%">Swasta</th>
+                                    <th width="10%">Asuransi</th>
+                                    <th width="10%">BPJS</th>
+                                    <th width="10%">Total</th>
+                                    <th width="10%">Swasta</th>
+                                    <th width="10%">Asuransi</th>
+                                    <th width="10%">BPJS</th>
+                                    <th width="10%">Total</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="text-center">1</td>
-                                    <td> Security doors
-                                    </td>
-                                    <td class="text-center small">16 Jun 2014</td>
-                                    <td class="text-center"><span class="label label-primary">$483.00</span></td>
-
-                                </tr>
-                                <tr>
-                                    <td class="text-center">2</td>
-                                    <td> Wardrobes
-                                    </td>
-                                    <td class="text-center small">10 Jun 2014</td>
-                                    <td class="text-center"><span class="label label-primary">$327.00</span></td>
-
-                                </tr>
-                                <tr>
-                                    <td class="text-center">3</td>
-                                    <td> Set of tools
-                                    </td>
-                                    <td class="text-center small">12 Jun 2014</td>
-                                    <td class="text-center"><span class="label label-warning">$125.00</span></td>
-
-                                </tr>
-                                <tr>
-                                    <td class="text-center">4</td>
-                                    <td> Panoramic pictures</td>
-                                    <td class="text-center small">22 Jun 2013</td>
-                                    <td class="text-center"><span class="label label-primary">$344.00</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">5</td>
-                                    <td>Phones</td>
-                                    <td class="text-center small">24 Jun 2013</td>
-                                    <td class="text-center"><span class="label label-primary">$235.00</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">6</td>
-                                    <td>Monitors</td>
-                                    <td class="text-center small">26 Jun 2013</td>
-                                    <td class="text-center"><span class="label label-primary">$100.00</span></td>
-                                </tr>
-                            </tbody>
                         </table>
                     </div>
                     <div class="col-lg-6">
@@ -80,48 +166,68 @@
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-md-3">
-        <h2>Welcome Amelia</h2>
-        <small>You have 42 messages and 6 notifications.</small>
-        <ul class="list-group clear-list m-t">
-            <li class="list-group-item fist-item">
-                <span class="float-right">
-                    09:00 pm
-                </span>
-                <span class="label label-success">1</span> Please contact me
-            </li>
-            <li class="list-group-item">
-                <span class="float-right">
-                    10:16 am
-                </span>
-                <span class="label label-info">2</span> Sign a contract
-            </li>
-            <li class="list-group-item">
-                <span class="float-right">
-                    08:22 pm
-                </span>
-                <span class="label label-primary">3</span> Open new shop
-            </li>
-            <li class="list-group-item">
-                <span class="float-right">
-                    11:06 pm
-                </span>
-                <span class="label label-default">4</span> Call back to Sylvia
-            </li>
-            <li class="list-group-item">
-                <span class="float-right">
-                    12:00 am
-                </span>
-                <span class="label label-primary">5</span> Write a letter to Sandra
-            </li>
-        </ul>
-    </div>
-</div>
 <!-- Page-Level Scripts -->
 <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function() {
-
+        getTable();
     });
+
+    function getTable() {
+        tablexx = $('#tabel_serverside').DataTable();
+        tablexx.destroy();
+        //datatables
+        tablexx = $('#tabel_serverside').DataTable({
+            "processing": true,
+            "pageLength": 10,
+            "responsive": true,
+            "dom": '<"html5buttons"B>lTfgitp',
+            "order": [],
+            "ajax": {
+                url: "<?php echo base_url("Data/console"); ?>", // json datasource
+                type: "post", // method  , by default get
+                error: function() { // error handling
+                    $(".tabel_serverside-error").html("");
+                    $("#tabel_serverside").append('<tbody class="tabel_serverside-error"><tr><th colspan="3">Data Tidak Ditemukan di Server</th></tr></tbody>');
+                    $("#tabel_serverside_processing").css("display", "none");
+
+                }
+            },
+            "columnDefs": [{
+                "targets": [0],
+                "orderable": false,
+            }, ],
+            "ordering": true,
+            "info": true,
+            "serverSide": true,
+            "stateSave": true,
+            "scrollX": true,
+            buttons: [{
+                    extend: 'copy'
+                },
+                {
+                    extend: 'csv'
+                },
+                {
+                    extend: 'excel',
+                    title: 'ExampleFile'
+                },
+                {
+                    extend: 'pdf',
+                    title: 'ExampleFile'
+                },
+
+                {
+                    extend: 'print',
+                    customize: function(win) {
+                        $(win.document.body).addClass('white-bg');
+                        $(win.document.body).css('font-size', '10px');
+                        $(win.document.body).find('table')
+                            .addClass('compact')
+                            .css('font-size', 'inherit');
+                    }
+                }
+            ],
+        });
+    }
 </script>
 <?= $this->endSection(); ?>

@@ -1,0 +1,26 @@
+ERROR - 2022-02-09 09:52:55 --> Unknown column 'id_mt_units' in 'where clause'
+CRITICAL - 2022-02-09 09:52:55 --> Unknown column 'id_mt_units' in 'where clause'
+#0 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ihc\dashboard\app\Models\Serverside_model.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ihc\dashboard\app\Controllers\Data.php(31): App\Models\Serverside_model->get_datatables('v_console', Array, Array, Array, 'tanggal='2022-0...')
+#6 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Data->console()
+#7 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ihc\dashboard\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-09 09:53:13 --> Unknown column 'id_mt_units' in 'where clause'
+CRITICAL - 2022-02-09 09:53:13 --> Unknown column 'id_mt_units' in 'where clause'
+#0 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ihc\dashboard\app\Models\Serverside_model.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ihc\dashboard\app\Controllers\Data.php(31): App\Models\Serverside_model->get_datatables('v_console', Array, Array, Array, 'tanggal='2022-0...')
+#6 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Data->console()
+#7 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ihc\dashboard\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

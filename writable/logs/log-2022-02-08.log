@@ -1,0 +1,6 @@
+CRITICAL - 2022-02-08 07:57:41 --> Class 'App\Models\RubrikModel' not found
+#0 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(803): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\ihc\dashboard\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ihc\dashboard\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
