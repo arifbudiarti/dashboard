@@ -18,9 +18,9 @@ class Apps extends BaseController
         $data['title'] = 'Dashboard';
         $data['url'] = $this->mainUrl;
         $data['child'] = "";
-        return view('pages/app/home', $data);
         // echo "<pre>";
         // print_r($data);
         // echo "</pre>";
+        return view('pages/app/home', $data);
     }
 }
